@@ -8,7 +8,7 @@ import android.widget.TextView
 class MainActivity : AppCompatActivity() {
 
     lateinit var greetingTextView : TextView
-    var name = "David"
+    var name = "David" // vi tänker oss att vi fått användaresns namn
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
